@@ -4,7 +4,32 @@ email: coolwebconfs@gmail.com
 description: A blog about my favorite web conferences.
 url: "http://webconfs.me" # the base hostname & protocol for your site
 twitter_username: guilh
+paginate: 3
 
 # Build settings
 markdown: kramdown
 permalink: /:title
+gems: [jekyll-paginate]
+
+#Default settings
+defaults:
+  -
+    scope:
+      path: "" # an empty string here means all files in the project
+      type: "posts" # previously `post` in Jekyll 2.2.
+    values:
+      author: Guil Hernandez
+      layout: "post"
+      category: conferences
+      comments: true
+  -
+    scope:
+      path: "" # an empty string here means all files in the project
+      type: "pages" # previously `post` in Jekyll 2.2.
+    values:
+      layout: "page"
+
+
+
+
+

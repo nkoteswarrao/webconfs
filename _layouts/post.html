@@ -14,9 +14,10 @@ layout: default
     {% if page.image %}
     <img class="feat-img is-hidden-mobile" src="/img/{{ page.image }}">
     {% endif %}
-
     <article class="post__content">
       {{ content }}
     </article>   
+
+    {% include disqus.html disqus_identifier=page.disqus_identifier %}
 	</div>
 </div>
