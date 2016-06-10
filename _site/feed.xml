@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>WebConfs - A blog about web conferences</title>
+    <description>A blog about my favorite web conferences.</description>
+    <link>http://webconfs.me/</link>
+    <atom:link href="http://webconfs.me/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Fri, 10 Jun 2016 23:05:18 +0530</pubDate>
+    <lastBuildDate>Fri, 10 Jun 2016 23:05:18 +0530</lastBuildDate>
+    <generator>Jekyll v3.1.6</generator>
+    
+      <item>
+        <title>SassConf</title>
+        <description>&lt;p&gt;SassConf is an awsome conference for front-end developers and designers who love Sass and are passionate about building a better, more beautiful web.&lt;/p&gt;
+
+&lt;p&gt;This year, the conference is in Austin, Texsas!&lt;/p&gt;
+</description>
+        <pubDate>Mon, 06 Jun 2016 00:00:00 +0530</pubDate>
+        <link>http://webconfs.me/sass-conf</link>
+        <guid isPermaLink="true">http://webconfs.me/sass-conf</guid>
+        
+        
+        <category>conferences</category>
+        
+      </item>
+    
+      <item>
+        <title>Camp Sass</title>
+        <description>&lt;p&gt;Camp Sass is a one-day, one-track Sass conference held in Atlanta, GA. It’s hosted by Hampton Catlin, the inventor of Sass!&lt;/p&gt;
+
+&lt;p&gt;At this year’s conference, I had lots of fun, learned a ton, and met many talented web designers and developers.&lt;/p&gt;
+</description>
+        <pubDate>Wed, 29 Apr 2015 15:15:36 +0530</pubDate>
+        <link>http://webconfs.me/camp-sass</link>
+        <guid isPermaLink="true">http://webconfs.me/camp-sass</guid>
+        
+        
+        <category>conferences</category>
+        
+      </item>
+    
+  </channel>
+</rss>
